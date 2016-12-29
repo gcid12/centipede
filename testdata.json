@@ -1,0 +1,244 @@
+{
+  "type":"faq",
+  "entityHandle": "moma",
+  "entity": "Museum of Modern Art",
+  "simpleq":"Where is the Museum of modern art ?",
+  "question":{
+    "eng": ["Where is the Museum of modern art ?", "Where the Moma is located ?"],
+    "spa": ["Donde esta el Museo de arte moderno?"]
+  },
+  "simplea":"The moma is located in Midtown",
+  "collabs":{
+    "first":123,
+    "second":34,
+    "third":11
+  },
+  "city":["paris","london"],
+  "lang":["eng","spa","fra"],
+  "domains": ["art","editorial"]
+},
+
+{
+"type":"faq",
+"entityHandle": "moma",
+"entity": "Museum of Modern Art",
+"simpleq":"What is the newest exhbition ?",
+"question":{
+"eng": ["What is the newest exhbition?", "What exhibition just opened?"],
+"spa": ["Cual es la exhibicion mas reciente ?"]
+},
+"simplea":"Picasso exhibition is the most recent addition.",
+"collabs":{
+"first":123,
+"second":34,
+"third":11
+},
+"city":["New York"],
+"lang":["eng"],
+"domains": ["art","museums"]
+}
+,
+
+{
+"type":"faq",
+"entityHandle": "metropolitanmuseum",
+"entity": "Metropolitan Museum of Art",
+"simpleq":"What is the newest exhbition ?",
+"question":{
+"eng": ["What is the newest exhbition?", "What exhibition just opened?"],
+"spa": ["Cual es la exhibicion mas reciente ?"]
+},
+"simplea":"Picasso exhibition is the most recent addition.",
+"collabs":{
+"first":123,
+"second":34,
+"third":11
+},
+"city":["New York"],
+"lang":["eng"],
+"domains": ["art","museums"]
+}
+
+
+{
+"type":"faq",
+"entityHandle": "newmuseum",
+"entity": "The New Museum",
+"simpleq":"Who is the curator of the New Museum?",
+"question":{
+"eng": ["What is the newest exhbition?", "What exhibition just opened?"],
+"spa": ["Cual es la exhibicion mas reciente ?"]
+},
+"simplea":"Shes the current curator of the New Museum",
+"collabs":{
+"first":123,
+"second":34,
+"third":11
+},
+"city":["New York"],
+"lang":["eng"],
+"domains": ["art","museums"]
+}
+
+
+{
+"type":"faq",
+"entityHandle": "newmuseum",
+"entity": "The New Museum",
+"simpleq":"What is the New Museum?",
+"question":{
+"eng": ["What is the newest exhbition?", "What exhibition just opened?"],
+"spa": ["Cual es la exhibicion mas reciente ?"]
+},
+"simplea":"Its a museum located at the Bowery in New York City",
+"collabs":{
+"first":123,
+"second":34,
+"third":11
+},
+"city":["New York"],
+"lang":["eng","spa","fra"],
+"domains": ["art","museums"]
+}
+
+=====
+
+{
+"type":"faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"simpleq":"Where do I pick up my tickets?",
+"simplea":"You can pick up your tickets at 5 different locations throughout NYC. Please follow link for locations and directions. https://www.citysightseeingnewyork.com/contact-us",
+"collabs":{
+"first":1,
+"second":2,
+"third":3
+},
+"city":["New York"],
+"lang":["eng"],
+"domains": ["travel"]
+}
+=====
+
+
+{
+"type":"faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"simpleq":"Do you offer private group tours?, How many people does the private charter accomodate?, How can I book a private tour?",
+"simplea":"Yes. We offer private boat charters that accommodate 299 guest. A private tour can be book at Info@CitySightseeingCruises.com or call 212-445-7599. ",
+"collabs":{
+"first":1,
+"second":2,
+"third":3
+},
+"city":["New York"],
+"lang":["eng"],
+"domains": ["travel","groups"]
+},
+{
+"type":"faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"simpleq":"What kind of city passes do you offer?",
+"simplea":"New York CityPASS + All Around Town 72 Hour Tour, FreeStyle Pass New York, FlexPass-Choose from NYC's Top Attractions, Christmas in New York, One World Observatory Plus All around town Tour, New York Minute, New York sights and shopping, New york sights, Super New York Tour, All Around Town Tour + 1 Attraction, Eat and Play with One World Observatory, Eat and Play with Empire State Building Observatory,  Eat and Play with Top of the Rock, Downtown Experience, All Around Town Tour + Empire State Building Observatory, All Around Town Tour + Liberty Helicopter Tour (The Big Apple), The Big Four Combo, Night Tour Plus Dinner, One World Observatory Plus Downtown Tour, One World Observatory Plus CitySightseeing Ferry Cruise, Night Tour and One World Observatory, Unbelievable NYC Package.",
+"collabs":{
+"first":1,
+"second":2,
+"third":3
+},
+"city":["New York"],
+"lang":["eng"],
+"domains": ["travel"]
+},
+{
+"type":"faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"simpleq":"what kind of tours do you offer? ",
+"simplea":"We offer bus tours, boat tours and cruises, helicopter tours, attraction tours, city passes.",
+"collabs":{
+"first":1,
+"second":2,
+"third":3
+},
+"city":["New York"],
+"lang":["eng"],
+"domains": ["travel"]
+},
+{
+"type":"faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"simpleq":"What kind of  Bus Tours do you have?",
+"simplea":"All Around Town Tour - 48 Hours, All Around Town Tour - 72 Hours, Downtown Tour, Uptown and Downtown Tour, Night/Holiday Lights Tour, Brooklyn Tour, Uptown Tour, Bronx Tour, All Around Town Tour + 1 Attraction, All Around Town Tour + Top of the Rock, Night Tour Plus Dinner, FreeStyle Pass New York, The Big Four Combo, Super New York Tour, Woodbury Common Premium Outlets Bus from New York.",
+"collabs":{
+"first":1,
+"second":2,
+"third":3
+},
+"city":["New York"],
+"lang":["eng"],
+"domains": ["travel"]
+},
+{
+"type":"faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"simpleq":"What Boat Cruise tours do you have?",
+"simplea":"Hop-on, Hop-Off Sightseeing Ferry, Skyline Cruise (90 minute Cruise), Twilight Cruise (90-Min), New Years Eve Fireworks Cruise, Circle Line Best of NYC Cruise (2.5 Hours) ",
+"collabs":{
+"first":1,
+"second":2,
+"third":3
+},
+"city":["New York"],
+"lang":["eng"],
+"domains": ["travel"]
+},
+{
+"type":"faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"simpleq":"What kind of helicopter tours do you have?",
+"simplea":"Manhattan helicopters - Classic Manhattan Tour, Manhattan Helicopters - Deluxe Manhattan Tour, Manhattan Helicopters - VIP Manhattan Tour, All Around Town Tour nad Manhattan Helicopter Tour, Liberty Helicopter Tours NYC- The Big Apple, Liberty Helicopters Tours NYC - New York New York, All Around Town Tour + Liberty helicopter Tour (The Big Apple).",
+"collabs":{
+"first":1,
+"second":2,
+"third":3
+},
+"city":["New York"],
+"lang":["eng"],
+"domains": ["travel"]
+},
+{
+"type":"faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"simpleq":"what kind of landmark tickets do you sell? What kind of attraction tickets do you sell?",
+"simplea":"Top of the Rock Observatory, Empire State Building Observatory, One World Observatory, All Around Town TOur + Top of the Rock, WTC Ground Zero TOur + 9/11 Musum Entry, All Around Town Tour + Empire State Building Observatory.",
+"collabs":{
+"first":1,
+"second":2,
+"third":3
+},
+"city":["New York"],
+"lang":["eng"],
+"domains": ["travel"]
+},
+{
+"type":"faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"simpleq":" ",
+"simplea":" ",
+"collabs":{
+"first":1,
+"second":2,
+"third":3
+},
+"city":["New York"],
+"lang":["eng"],
+"domains": ["travel"]
+}
+
