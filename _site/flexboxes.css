@@ -1,0 +1,111 @@
+/*CSS FOR CHATBOX*/
+.lane-box {
+  margin: 20px 50px 10px 50px;
+  padding: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  flex-flow: row; }
+
+.lane-box .lane1 {
+  margin: 0;
+  padding: 0;
+  -webkit-flex: 1 1 80%;
+  flex: 1 1 80%;
+  order: 2; }
+
+.lane-box .lane2 {
+  margin: 25px 0 0 4px;
+  padding: 5px;
+  border-radius: 0 4px 4px 0;
+  -webkit-flex: 1 1 20%;
+  flex: 1 1 20%;
+  order: 3;
+  color: grey;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.footer {
+  display: block;
+  margin: 0 50px;
+  padding: 60px 0 10px 40px;
+  border-radius: 5pt;
+  height: 150%;
+  color: grey; }
+
+.current {
+  padding: 40px 15px 0 15px; }
+
+.current-box {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+  align-items: top; }
+
+.current-box .city {
+  color: inherit;
+  font-size: 3.5em;
+  line-height: 0.5em; }
+
+.current-box .domain {
+  color: #CCC;
+  font-size: 2em; }
+
+.dialog-box {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+  align-items: top; }
+
+.dialog-box .box-a {
+  margin: 0;
+  -webkit-flex: 1 1 0%;
+  flex: 1 1 0%;
+  order: 1;
+  text-align: center; }
+
+.dialog-box .box-b {
+  border: 1px dotted rgba(0, 0, 0, 0.2);
+  border-width: 1px 0 0 0;
+  height: 100%;
+  -webkit-flex: 1 1 5%;
+  flex: 1 1 5%;
+  order: 2;
+  color: grey;
+  text-align: left;
+  font-size: 0.7em;
+  color: #CCC;
+  margin: 15px 0 0 -33px;
+  padding: 10px 20px 0 20px;
+  max-width: 100px; }
+
+.dialog-box .box-c {
+  -webkit-flex: 1 1 70%;
+  flex: 1 1 70%;
+  order: 3; }
+
+.dialog-box .box-d {
+  align-self: flex-end;
+  order: 3;
+  padding: 0px 0 20px 0; }
+
+.dialog-box .timeline-detail-icon {
+  padding: 10px 0 0 0; }
+
+.showbox {
+  border: solid 1px purple; }
+
+/* Too narrow to support three columns */
+@media all and (max-width: 640px) {
+  .lane-box, #page {
+    -webkit-flex-flow: column;
+    flex-flow: column; }
+
+  .lanebox .lane1, .lanebox .lane2, .input-box {
+    min-height: 50px;
+    max-height: 50px; }
+
+  .lane-box {
+    margin: 0; } }

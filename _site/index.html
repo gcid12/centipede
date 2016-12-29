@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Media search by Algolia</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css" />
+  
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link rel="stylesheet" type="text/css" href="flexboxes.css" />
+  <!--[if lte IE 9]>
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <header class="row">
+    <div class="searchbox-container">
+      <div class="input-group">
+        <input type="text" class="form-control" id="q" />
+        <span class="input-group-btn">
+          <button class="btn btn-default"><i class="fa fa-search"></i></button>
+        </span>
+      </div>
+    </div>
+  </header>
+  <section >
+
+    <article>
+
+      <!--<div class="top">-->
+        <!--<h1>New York</h1>-->
+        <!--<p>Travel + Art + food</p>-->
+      <!--</div>-->
+
+      <div class="current">
+
+        <div class="current-box">
+          <p id="currentCity" class="city">Q&A</p>
+          <p id="currentDomain" class="domain">general</p>
+
+
+        </div>
+
+        <div class="dialog-box">
+
+          <div class="box-a timeline-center">
+              <i class="fa fa-circle timeline-detail-icon"></i>
+          </div>
+          <div class="box-b"></div>
+
+          <div class="box-c q-title">
+            <div id="stats" class="text-left text-muted"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="hits">
+      </div>
+
+    </article>
+    <aside>
+      <ul class="nav nav-list">
+        <li><a href=""><i class="fa fa-home"></i> Home</a></li>
+        <li class="separator"></li>
+      </ul>
+      <h5><i class="fa fa-chevron-right"></i> City </h5>
+      <div id="city" class="updateme"></div>
+      <h5><i class="fa fa-chevron-right"></i> Domains</h5>
+      <div id="domains" class="updateme"></div>
+
+      <h5><i class="fa fa-chevron-right"></i> Language</h5>
+      <div id="lang" class="updateme"></div>
+
+      <div class="updateme">Update Me</div>
+
+
+
+      <!--<h5><i class="fa fa-chevron-right"></i> Ratings</h5>-->
+      <!--<div id="ratings"></div>-->
+      <!--<div class="thank-you">Data courtesy of <a href="">People</a></div>-->
+    </aside>
+
+      <!--<div id="stats" class="text-right text-muted"></div>-->
+      <!--<hr />-->
+      <!--<div id="hits"></div>-->
+      <!--<div id="pagination" class="text-center"></div>-->
+
+  </section>
+  <div id="pagination" class="footer">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
+
+
+
+    
+  <script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.js"></script>
+  
+  <script src="search.js"></script>
+
+
+</body>
+</html>
