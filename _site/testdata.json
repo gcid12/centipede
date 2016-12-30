@@ -3,7 +3,7 @@
   "entityHandle": "moma",
   "entity": "Museum of Modern Art",
   "simpleq":"Where is the Museum of modern art ?",
-  "question":{
+  "question": {
     "eng": ["Where is the Museum of modern art ?", "Where the Moma is located ?"],
     "spa": ["Donde esta el Museo de arte moderno?"]
   },
@@ -104,20 +104,26 @@
 =====
 
 {
-"type":"faq",
+"type": "faq",
 "entityHandle": "citysightseeingny",
 "entity": "City Sightseeing Tour",
-"simpleq":"Where do I pick up my tickets?",
-"simplea":"You can pick up your tickets at 5 different locations throughout NYC. Please follow link for locations and directions. https://www.citysightseeingnewyork.com/contact-us",
-"collabs":{
-"first":1,
-"second":2,
-"third":3
+"question": "City Sightseeing New York, Where do I pick up my tickets?",
+"questionV": {
+  "eng": ["Where is the Museum of modern art ?", "Where the Moma is located ?"],
+  "spa": ["Donde esta el Museo de arte moderno?"]
 },
-"city":["New York"],
-"lang":["eng"],
-"domains": ["travel"]
+"answer": "Yes. We offer private boat charters that accommodate 299 guest. A private tour can be book at Info@CitySightseeingCruises.com or call 212-445-7599. ",
+"collabs": {
+  "first": 1,
+  "second": 2,
+  "third": 3
+},
+"city": ["New York"],
+"lang": ["eng", "spa", "por"],
+"domains": ["travel", "groups", "test"],
+"objectID": "666666"
 }
+
 =====
 
 

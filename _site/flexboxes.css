@@ -89,6 +89,12 @@
 .dialog-box .box-d {
   align-self: flex-end;
   order: 3;
+  padding: 0px 0 5px 0;
+  display: flex;
+  justify-content: space-between; }
+
+.dialog-box .box-e {
+  order: 4;
   padding: 0px 0 20px 0; }
 
 .dialog-box .timeline-detail-icon {

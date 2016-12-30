@@ -39,11 +39,42 @@ var hitTemplate =
                 '</span>'+
             '</div>'+
             '<div class="box-b">{{{_highlightResult.entity.value}}}</div>'+
-            '<div class="box-c q-title">{{{_highlightResult.simpleq.value}}}<div class="box-d">'+
-                '<span class="label label-1">2</span>'+
-                '<span class="label label-2">5</span>'+
-                '<span class="label label-3">16</span>'+
-                '<div class="q-preview-text">{{{_highlightResult.simplea.value}}}</div>'+
+            '<div class="box-c q-title">' +
+                '{{{_highlightResult.question.value}}}'+
+                    '<div class="q-variation collapse " id="collapseExample">'+
+                        '<span class="title">Question Variables:</span>'+
+                        '{{#_highlightResult.questionV}}\
+                            {{#eng}}\
+                                <ul>\
+                                {{#.}}\
+                                    <li>\
+                                    {{{ value }}}\
+                                    </li>\
+                                {{/.}}\
+                                </ul>\
+                            {{/eng}}\
+                        {{/_highlightResult.questionV}}'+
+                    '</div>'+
+                '<div class="box-d">'+
+                    '<div class="right">'+
+                        '<span class="label label-1">2</span>'+
+                        '<span class="label label-2">5</span>'+
+                        '<span class="label label-3">16</span>'+
+                    '</div>'+
+                    '<div class="left">'+
+                        '<a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">'+
+                            '<span class="label label-plus">'+
+                                'more'+
+                            '</span>'+
+                        '</a>'+
+                    '</div>'+
+                '</div>'+
+                '<div class="box-e">'+
+                    '<div class="q-preview-text">{{{_highlightResult.answer.value}}}</div>'+
+                    '<div class="varia">'+
+                    '{{#_highlightResult}}<p>{{{_highlightResult.lang.value}}}</p>{{/_highlightResult}}'+
+                    '</div>'+
+                '</div>'+
             '</div>'+
         '</div>'+
     '</div>';

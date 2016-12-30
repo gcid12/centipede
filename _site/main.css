@@ -189,7 +189,8 @@ section {
 .label {
   border-radius: 7px;
   margin: 0 2px;
-  font-size: 0.4em; }
+  font-size: 0.5em;
+  height: 15px; }
 
 .label-1 {
   background-color: #5dbb58; }
@@ -202,6 +203,10 @@ section {
 
 .label-4 {
   background-color: #7a6baa; }
+
+.label-plus {
+  background-color: #8b93b3;
+  color: #FFF; }
 
 .q-lang {
   float: right;
@@ -219,6 +224,23 @@ section {
   background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='2' height='2'><circle cx='2' cy='2' r='2' /></svg>") no-repeat;
   background-repeat: repeat-y;
   background-position: center; }
+
+.q-variation {
+  background-color: #FAFAFA;
+  padding: 5px 20px 10px 30px;
+  margin: 10px 15px 0 10px;
+  border-radius: 50px 50px 0px 50px;
+  font-size: 0.8em;
+  color: #8b93b3;
+  line-height: 0.9em; }
+
+.q-variation .title {
+  font-size: 0.7em;
+  font-style: italic;
+  opacity: .7; }
+
+.q-variation ul {
+  padding-top: 6px; }
 
 .dropdown {
   list-style: none outside none;
