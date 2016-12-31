@@ -1,0 +1,238 @@
+{
+  "type": "faq",
+  "entityHandle": "citysightseeingny",
+  "entity": "City Sightseeing Tour",
+  "question": " ",
+  "questionV": {
+    "eng": ["Where do I pick up my City Sightseeing New York?","I need to pickup my tickets, where do I do that?","I purchased City Sightseeing New York Tickets, where do I pick them up"],
+    "spa": [ ]
+  },
+  "answer": "City Sightseeing New York has up your tickets at 5 different locations throughout NYC. Please follow link for locations and directions. https://www.citysightseeingnewyork.com/contact-us",
+  "collabs": {
+    "first": 1,
+    "second": 2,
+    "third": 3
+  },
+  "city": [
+    "New York"
+  ],
+  "lang": [
+    "eng"
+  ],
+  "domains": [
+    "travel"
+  ]
+}
+,
+{
+"type": "faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"question": " ",
+"questionV": {
+"eng": ["Does City Sightseeing New York offer private group tours?","What private group tours do they offer?"],
+"spa": [ ]
+},
+"answer": "A private tour can be book at Info@CitySightseeingCruises.com or call 212-445-7599. ",
+"collabs": {
+"first": 1,
+"second": 2,
+"third": 3
+},
+"city": [
+"New York"
+],
+"lang": [
+"eng"
+],
+"domains": [
+"travel"
+]
+}
+,
+{
+"type": "faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"question": " ",
+"questionV": {
+"eng": ["City Sightseeing New York tours for large groups?","What large groups do they offer?"],
+"spa": [ ]
+},
+"answer": "City Sightseeing New York offers private boat charters that accommodate 299 guest.",
+"collabs": {
+"first": 1,
+"second": 2,
+"third": 3
+},
+"city": [
+"New York"
+],
+"lang": [
+"eng"
+],
+"domains": [
+"travel"
+]
+}
+,
+{
+"type": "faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"question": " ",
+"questionV": {
+"eng": ["City Sightseeing New York tours for Small groups","What tours do they offer for small groups"],
+"spa": [ ]
+},
+"answer": "City Sightseeing New York offers private boat charters that accommodate 299 guest.",
+"collabs": {
+"first": 1,
+"second": 2,
+"third": 3
+},
+"city": [
+"New York"
+],
+"lang": [
+"eng"
+],
+"domains": [
+"travel"
+]
+}
+,
+{
+"type": "faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"question": " ",
+"questionV": {
+"eng": ["Does City Sightseeing New York offer bus tours?","What Bus tours do they offer?"],
+"spa": [ ]
+},
+"answer": "City Sightseeing New York offers many Hop-on and Hop-off tours. Visit the site for all offers https://www.citysightseeingnewyork.com",
+"collabs": {
+"first": 1,
+"second": 2,
+"third": 3
+},
+"city": [
+"New York"
+],
+"lang": [
+"eng"
+],
+"domains": [
+"travel"
+]
+}
+
+
+////////
+
+
+{
+"type": "faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"question": " ",
+"questionV": {
+"eng": [ ],
+"spa": [ ]
+},
+"answer": "",
+"collabs": {
+"first": 1,
+"second": 2,
+"third": 3
+},
+"city": [
+"New York"
+],
+"lang": [
+"eng"
+],
+"domains": [
+"travel"
+]
+}
+,
+{
+"type": "faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"question": " ",
+"questionV": {
+"eng": [ ],
+"spa": [ ]
+},
+"answer": "",
+"collabs": {
+"first": 1,
+"second": 2,
+"third": 3
+},
+"city": [
+"New York"
+],
+"lang": [
+"eng"
+],
+"domains": [
+"travel"
+]
+}
+,
+{
+"type": "faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"question": " ",
+"questionV": {
+"eng": [ ],
+"spa": [ ]
+},
+"answer": "",
+"collabs": {
+"first": 1,
+"second": 2,
+"third": 3
+},
+"city": [
+"New York"
+],
+"lang": [
+"eng"
+],
+"domains": [
+"travel"
+]
+}
+,
+{
+"type": "faq",
+"entityHandle": "citysightseeingny",
+"entity": "City Sightseeing Tour",
+"question": " ",
+"questionV": {
+"eng": [ ],
+"spa": [ ]
+},
+"answer": "",
+"collabs": {
+"first": 1,
+"second": 2,
+"third": 3
+},
+"city": [
+"New York"
+],
+"lang": [
+"eng"
+],
+"domains": [
+"travel"
+]
+}
+
