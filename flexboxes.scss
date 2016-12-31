@@ -81,8 +81,6 @@
 
 }
 .dialog-box .box-a {
-
-    margin: 0;
     -webkit-flex: 1 1 0%;
     flex: 1 1 0%;
     order: 1;
@@ -101,11 +99,14 @@
     font-size: 0.7em;
     color:#CCC;
     margin:15px 0 0 -33px;
-    padding:10px 20px 0 20px;
+    padding: 10px 20px 0 30px;
     max-width: 100px;
+    line-height: 1.4em;
+
 
 }
 .dialog-box .box-c {
+    margin: 0px 10px 10px 10px;
     -webkit-flex: 1 1 70%;
     flex: 1 1 70%;
     order: 3;
@@ -130,7 +131,7 @@
 
 .dialog-box .box-e {
     order: 4;
-    padding: 0px 0 20px 0;
+    padding: 10px 0 0px 0;
 }
 
 .dialog-box .timeline-detail-icon{

@@ -184,7 +184,8 @@ section {
   background: #BBBBBB; }
 
 .q-title {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  line-height: 1.4em; }
 
 .label {
   border-radius: 7px;
@@ -215,7 +216,8 @@ section {
 
 .q-preview-text {
   font-size: 0.6em;
-  color: #CCC; }
+  color: #CCC;
+  line-height: 1.6em; }
 
 .icon-right-pad {
   padding: 0 15px 0 5px; }
@@ -230,7 +232,7 @@ section {
   padding: 5px 20px 10px 30px;
   margin: 10px 15px 0 10px;
   border-radius: 50px 50px 0px 50px;
-  font-size: 0.8em;
+  font-size: 0.7em;
   color: #8b93b3;
   line-height: 0.9em; }
 

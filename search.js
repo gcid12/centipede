@@ -38,10 +38,10 @@ var hitTemplate =
                     '<i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>'+
                 '</span>'+
             '</div>'+
-            '<div class="box-b">{{{_highlightResult.entity.value}}}</div>'+
-            '<div class="box-c q-title">' +
+            '<h2 class="box-b">{{{_highlightResult.entity.value}}}</h2>'+
+            '<h3 class="box-c q-title">' +
                 '{{{_highlightResult.question.value}}}'+
-                    '<div class="q-variation collapse " id="collapseExample">'+
+                    '<div class="q-variation collapse " id="collapse_{{{_highlightResult.myID.value}}}">'+
                         '<span class="title">Question Variables:</span>'+
                         '{{#_highlightResult.questionV}}\
                             {{#eng}}\
@@ -62,7 +62,7 @@ var hitTemplate =
                         '<span class="label label-3">16</span>'+
                     '</div>'+
                     '<div class="left">'+
-                        '<a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">'+
+                        '<a data-toggle="collapse" href="#collapse_{{{_highlightResult.myID.value}}}" aria-expanded="false" aria-controls="collapse_{{{_highlightResult.myID.value}}}">'+
                             '<span class="label label-plus">'+
                                 'more'+
                             '</span>'+
@@ -75,7 +75,7 @@ var hitTemplate =
                     '{{#_highlightResult}}<p>{{{_highlightResult.lang.value}}}</p>{{/_highlightResult}}'+
                     '</div>'+
                 '</div>'+
-            '</div>'+
+            '</h3>'+
         '</div>'+
     '</div>';
 
