@@ -236,3 +236,110 @@
 ]
 }
 
+{
+"type": "faq",
+"entityHandle": "moma",
+"entity": "Museum of Modern Art",
+"question": "What is The Museum of Modern Art?",
+"questionV": {
+"eng": ["What is The Museum of Modern Art?"],
+"spa": [ ]
+},
+"answer": "The Museum of Modern Art is a place that fuels creativity, ignites minds, and provides inspiration. With extraordinary exhibitions and the world's finest collection of modern and contemporary art, MoMA is dedicated to the conversation between the past and the present, the established and the experimental. Our mission is helping you understand and enjoy the art of our time.",
+"collabs": {
+"first": 1,
+"second": 2,
+"third": 3
+},
+"city": [
+"New York"
+],
+"lang": [
+"eng"
+],
+"domains": [
+"travel", "art"
+]
+}
+,
+
+{
+"type": "faq",
+"entityHandle": "moma",
+"entity": "Museum of Modern Art",
+"question": "What is The Museum of Modern Art?",
+"questionV": {
+"eng": ["How do I arrange for a group visit?"],
+"spa": [ ]
+},
+"answer": "The Museum of Modern Art welcomes groups by appointment, extending its exhibition and educational resources through its guided and unguided Museum tours. For further information, please call (212) 708-9685, fax (212) 408-6398, or email groupservices@moma.org.",
+"collabs": {
+"first": 1,
+"second": 2,
+"third": 3
+},
+"city": [
+"New York"
+],
+"lang": [
+"eng"
+],
+"domains": [
+"travel", "art"
+]
+}
+
+,
+
+{
+"type": "faq",
+"entityHandle": "moma",
+"entity": "Museum of Modern Art",
+"question": "How do I become a member?",
+"questionV": {
+"eng": ["How do I become a member?"],
+"spa": [ ]
+},
+"answer": "MoMA members experience the Museum in the best way possible! Exclusive member privileges include unlimited free admission, private exhibition previews, discounted admission tickets for guests, valuable discounts at all MoMA Stores and cafés, and so much more.",
+"collabs": {
+"first": 1,
+"second": 2,
+"third": 3
+},
+"city": [
+"New York"
+],
+"lang": [
+"eng"
+],
+"domains": [
+"travel", "art"
+]
+}
+
+,
+
+{
+  "type": "faq",
+  "entityHandle": "moma",
+  "entity": "Museum of Modern Art",
+  "question": {
+  "eng": ["What are the Museum's hours?", "What are the museum hours of operation"]
+  },
+  "answer": "Open seven days a week from 10:30 a.m. to 5:30 p.m. And Open until 8:00 p.m. on Fridays",
+  "collabs": {
+  "first": 10,
+  "second": 22,
+  "third": 3
+  },
+  "city": [
+  "New York"
+  ],
+  "lang": [
+  "eng","spa"
+  ],
+  "domains": [
+  "travel", "art"
+  ]
+}
+

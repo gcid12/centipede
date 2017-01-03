@@ -155,6 +155,20 @@ search.addWidget(
     })
 );
 
+search.addWidget(
+    instantsearch.widgets.refinementList({
+        container: '#entity',
+        attributeName: 'entity',
+        operator: 'and',
+        limit: 10,
+        cssClasses: {
+            list: 'nav nav-list',
+            count: 'badge pull-right',
+            active: 'active'
+        }
+    })
+);
+
 
 // search.addWidget(
 //     instantsearch.widgets.menu({
@@ -186,6 +200,7 @@ $(document).ready(function(){
     //TODO: Replace this for event trigger
     updateCurrent(); // This will run on page load
     setInterval(function(){
+
         updateCurrent() // this will run after every 5 seconds
     }, 1000);
 
@@ -231,29 +246,34 @@ function updateCurrent() {
     //HEADER UPDATE
     var params = get_params(location.search);
 
-    //CITY
-    var city1 = params['fR[city][0]'];
-    var city2 = params['fR[city][1]'];
-    var city3 = params['fR[city][2]'];
-    var city4 = params['fR[city][3]'];
+    var handle= params['fR[entity][0]'];
+    if(handle){
+        $("#currentCity").html(handle);
+    }else{
 
-    var cities;
-    if (!city1) {
-        cities = "Q&A";
-    } else {
-        cities = city1 +
-            ( city2 ? " + " + city2 : "" ) +
-            ( city3 ? " + " + city3 : "") +
-            ( city4 ? " + " + city4 + "..." : "");
+        //CITY
+        var city1 = params['fR[city][0]'];
+        var city2 = params['fR[city][1]'];
+        var city3 = params['fR[city][2]'];
+        var city4 = params['fR[city][3]'];
+
+        var cities;
+        if (!city1) {
+            cities = "Q&A";
+        } else {
+            cities = city1 +
+                ( city2 ? " + " + city2 : "" ) +
+                ( city3 ? " + " + city3 : "") +
+                ( city4 ? " + " + city4 + "..." : "");
+        }
+
+
+        $(this).ready(function(){
+            //console.log(cities);
+            $("#currentCity").html(cities);
+        });
+
     }
-
-
-    $(this).ready(function(){
-        //console.log(cities);
-        $("#currentCity").html(cities);
-    });
-
-
     //DOMAIN
     var domain1 = params['fR[domains][0]'];
     var domain2 = params['fR[domains][1]'];
@@ -274,6 +294,8 @@ function updateCurrent() {
         //console.log(domains);
         $("#currentDomain").fadeIn().html(domains);
     });
+
+
 
 
 
