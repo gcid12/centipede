@@ -1,11 +1,16 @@
 /* global instantsearch */
 
+
+
+
 var search = instantsearch({
-  appId: 'L2FA7ZC6MO',
-  apiKey: '3637c90fe243b0ab50187eb3243437c6',
-  indexName: 'faq_entities',
+  appId: '7K8AZRYX2O',
+  apiKey: '403c437db81fa6b9adf92564c8280b9b',
+  indexName: 'factopia-model3',
   urlSync: {}
 });
+
+
 
 search.addWidget(
   instantsearch.widgets.searchBox({
@@ -30,12 +35,13 @@ var hitTemplate2 =
     '</div>' +
   '</div>';
 
-var hitTemplate =
+var hitTemplate3 =
+
     '<div class="hit media">'+
         '<div id="qWrap" class="dialog-box">'+
             '<div class="box-a timeline-center">'+
                 '<span class="fa-stack fa-lg">'+
-                    '<i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>'+
+                    '<i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-check fa-stack-1x fa-inverse"></i>'+
                 '</span>'+
             '</div>'+
             '<h2 class="box-b">{{{_highlightResult.entity.value}}}</h2>'+
@@ -79,6 +85,55 @@ var hitTemplate =
         '</div>'+
     '</div>';
 
+var hitTemplate =
+
+    '<div class="hit media">' +
+        '<div id="qWrap" class="dialog-box">' +
+            '<div class="box-a timeline-center">' +
+                '<span class="fa-stack fa-sm">' +
+                    '<i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-check fa-stack-1x fa-inverse"></i>' +
+                '</span>' +
+            '</div>' +
+            '<h2 class="box-b">{{{_highlightResult.a1856dae.value}}}</h2>' +
+            '<h3 class="box-c q-title">' +
+                '{{{_highlightResult.cf32708b.value}}}' +
+                // '<div class="q-variation collapse " id="collapse_{{{_highlightResult.myID.value}}}">' +
+                //     '<span class="title">Question Variables:</span>' +
+                //     '{{#_highlightResult.questionV}}\
+                //         {{#eng}}\
+                //             <ul>\
+                //             {{#.}}\
+                //                 <li>\
+                //                 {{{ value }}}\
+                //                 </li>\
+                //             {{/.}}\
+                //             </ul>\
+                //         {{/eng}}\
+                //     {{/_highlightResult.questionV}}' +
+                // '</div>' +
+                '<div class="box-d">' +
+                    '<div class="right">' +
+                        '<span class="label label-3">Collab</span>' +
+                        '<span class="label label-1">{{{_highlightResult.c5c378b1.value}}}</span>' +
+                        '<span class="label label-2">{{{_highlightResult.da6c5796.value}}}</span>' +
+
+                    '</div>' +
+                    '<div class="left">' +
+                            '<span class="label label-plus">' +
+                                '{{{_highlightResult.f32d8ff5.value}}}' +
+                            '</span>' +
+                    '</div>' +
+                '</div>' +
+                '<div class="box-e">' +
+                    '<div class="q-preview-text">{{{_highlightResult.535e0dde.value}}}</div>' +
+                    // '<div class="varia">' +
+                    //     '{{#_highlightResult}}<p>{{{_highlightResult.da6c5796.value}}}</p>{{/_highlightResult}}' +
+                    // '</div>' +
+                '</div>' +
+            '</h3>' +
+        '</div>' +
+    '</div>';
+
 var noResultsTemplate =
   '<div class="text-center">No results found matching <strong>{{query}}</strong>.</div>';
 
@@ -116,7 +171,7 @@ search.addWidget(
 search.addWidget(
   instantsearch.widgets.refinementList({
     container: '#domains',
-    attributeName: 'domains',
+    attributeName: 'c5c378b1',
     operator: 'and',
     limit: 10,
     cssClasses: {
@@ -130,7 +185,7 @@ search.addWidget(
 search.addWidget(
     instantsearch.widgets.refinementList({
         container: '#city',
-        attributeName: 'city',
+        attributeName: 'f32d8ff5',
         operator: 'and',
         limit: 10,
         cssClasses: {
@@ -144,7 +199,7 @@ search.addWidget(
 search.addWidget(
     instantsearch.widgets.refinementList({
         container: '#lang',
-        attributeName: 'lang',
+        attributeName: 'da6c5796',
         operator: 'and',
         limit: 10,
         cssClasses: {
@@ -158,7 +213,7 @@ search.addWidget(
 search.addWidget(
     instantsearch.widgets.refinementList({
         container: '#entity',
-        attributeName: 'entity',
+        attributeName: 'a1856dae',
         operator: 'and',
         limit: 10,
         cssClasses: {
@@ -168,7 +223,6 @@ search.addWidget(
         }
     })
 );
-
 
 // search.addWidget(
 //     instantsearch.widgets.menu({
@@ -252,10 +306,10 @@ function updateCurrent() {
     }else{
 
         //CITY
-        var city1 = params['fR[city][0]'];
-        var city2 = params['fR[city][1]'];
-        var city3 = params['fR[city][2]'];
-        var city4 = params['fR[city][3]'];
+        var city1 = params['fR[f32d8ff5][0]'];
+        var city2 = params['fR[f32d8ff5][1]'];
+        var city3 = params['fR[f32d8ff5][2]'];
+        var city4 = params['fR[f32d8ff5][3]'];
 
         var cities;
         if (!city1) {
@@ -275,10 +329,10 @@ function updateCurrent() {
 
     }
     //DOMAIN
-    var domain1 = params['fR[domains][0]'];
-    var domain2 = params['fR[domains][1]'];
-    var domain3 = params['fR[domains][2]'];
-    var domain4 = params['fR[domains][3]'];
+    var domain1 = params['fR[c5c378b1][0]'];
+    var domain2 = params['fR[c5c378b1][1]'];
+    var domain3 = params['fR[c5c378b1][2]'];
+    var domain4 = params['fR[c5c378b1][3]'];
 
     var domains;
     if (!domain1) {

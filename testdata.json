@@ -248,3 +248,61 @@
 "domains": ["travel"]
 }
 
+
+question: What is the difference between Red and white wine? (text_Array)
+boolean_answer: yes
+answer: The redwine  (textarea)
+source:  (textarea)
+images: (imges)
+language:   (Lang widget)
+domains:
+
+
+
+:NA
+
+
+question: :What is the meaning of life?, what is life?
+short_answer: unknown
+long_answer: :We dont know yet
+source: life
+images:
+location:
+language: spa
+domains: esotheric, life
+
+
+question: Tequila is made of maguey.
+short_answer: true
+long_answer: There are different varieties of Maguey
+source: Corralejo website
+images:
+language: spa
+location:
+domains: esotheric, life
+
+
+
+
+question or fact: I wont raise taxes
+short_answer:
+long_answer: false
+source: YMCA visit NY
+images:
+domains: politics, penanieto
+//by default
+language: eng
+location: ny
+
+
+
+
+
+
+
+
+
+
+
+
+
